@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "rest_framework.authtoken",  # to avoid AttributeError: type object 'Token' has no attribute 'objects'
     "drf_spectacular",  # docs
+    "notifications",
 ]
 
 MIDDLEWARE = [
@@ -141,8 +142,8 @@ REST_FRAMEWORK = {
 
 # drf-spectacular
 SPECTACULAR_SETTINGS = {
-    "TITLE": "Django API Template",
-    "DESCRIPTION": "Django API Template",
+    "TITLE": "Django Notification Gateway",
+    "DESCRIPTION": "Django Notification Gateway",
     "VERSION": "1.0.0",
     "SERVE_INCLUDE_SCHEMA": False,
 }
