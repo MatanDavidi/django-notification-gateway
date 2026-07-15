@@ -9,7 +9,7 @@ coverage==7.6.0
 cryptography==42.0.8
 decorator==5.1.1
 defusedxml==0.8.0rc2
-distlib==0.3.8
+distlib==0.4.3
 Django==5.0.7
 django-cors-headers==4.4.0
 django-filter==24.2
